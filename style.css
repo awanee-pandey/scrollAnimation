@@ -15,7 +15,6 @@ body {
 }
 
 .container{
-    width:100%;
     transform-origin:top left;
     transition: all 0.5s linear;
     padding: 50px;
@@ -127,9 +126,14 @@ nav ul li + li {
 .content small{
     color:#555;
     font-style: italic;
+    margin-bottom : 15px;
 }
 
 .content p{
     color:#333;
     line-height: 1.5;
+}
+
+.content h3{
+    margin : 5px;
 }
